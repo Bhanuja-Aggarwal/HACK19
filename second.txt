@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <title>Child Death Ratio</title>
+        <link rel="icon" href="./logo1.png" type="img/.png"/>
+    </head>
+    <body>
+    <section>
+        <div style="background-color:black;width:102%;margin-left:-10px;margin-top:-1%;height:10%;">
+           
+            <span style="color: white;font-size:7vh;margin-left:35%;margin-top:15%;font-weight: 800;">HEALVENTURE</span>
+            
+        </div>
+        <style>
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 5px;
+              width:101.2%;
+              margin-left: -8px;
+              background-color: #1A4939;
+            }
+            
+            li {
+                display: inline-block;
+              }
+            
+            li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+            
+            li a:hover {
+              background-color: #3D7A65;
+            }
+            </style>
+            <div style="margin-left:0%;">
+             <ul>
+                <li><a class="active" href="#home">
+                <select  style="background-color:#3D7A65;color:white;" onchange="location = this.value;">
+  <option>ONLINE REQUEST</option>
+  <option value="form1.html" >Public Request</option>
+  <option value="form2.html">Medical Store Request</option>
+  <option value="form3.html">Hostpital Request</option>
+</select>
+  </a></li>
+                
+                <li><a href="aboutusn.html">About Us</a></li>
+                <li><a href="cont.html">Contact Us</a></li>
+                <li><a href="priv.html">Privacy Policy</a></li>
+              </ul>
+            </div>
+        
+        
+<div class="" style="max-width:700px;margin-left:20%;margin-top:2%;position: relative; background-color:white;">
+    <img class="mySlides" src="C:\Users\hp\Desktop\NIT\disp1111.jpg" style="width:100%">
+    <img class="mySlides" src="C:\Users\hp\Desktop\NIT\disp2.png" style="width:100%">
+    <img class="mySlides" src="C:\Users\hp\Desktop\NIT\disp3.jpg" style="width:100%">
+  </div>
+    <div class="" style="position: relative;">
+      <p1 style="font-style:Trebuchet MS;font-size:120%">
+<b>1.  India is likely to generate about 775.5 tonnes of medical waste per day by 2022 from the current level of 550.9 tonnes daily.medical waste is expected to grow at a compounded annual growth rate (CAGR) of about 7%.<br><br>
+  2.According to the study, the key challenges in bio-medical waste management include speed of data availability, under-reporting of waste generated and handling capacity, operation of healthcare facility without authorisation under Biomedical Waste Management Rules, lack of awareness among various sections of the staff at all levels among others.
+</p1>
+
+  </div>
+  <br>
+  <br>
+     </section>
+</body>
+</html>
+<style>
+    .mySlides {display:none;}
+    </style>
+<script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+      
